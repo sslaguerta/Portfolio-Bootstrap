@@ -1,0 +1,16 @@
+{
+  "name": "porfolio-bootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "npx sass --no-source-map scss:css",
+    "sass:watch": "npx sass --watch scss:css --no-source-map"
+  },
+  "author": "Syrill Dex Laguerta",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.6",
+    "sass": "^1.89.2"
+  }
+}
