@@ -20,3 +20,21 @@
 .projects .card {
   overflow: hidden;
 }
+
+.gallery {
+  background-color: #f4e7e1;
+
+  .gallery-item {
+    overflow: hidden;
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease-in-out;
+
+    img {
+      transition: transform 0.3s ease-in-out;
+      width: 500px;
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+}
