@@ -20,7 +20,7 @@
   </head>
   <body>
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark py-0">
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="images/LOGO4.png" alt="" width="70" />
@@ -39,7 +39,7 @@
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="#header">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#about">About</a>
@@ -48,7 +48,10 @@
               <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link btn btn-outline-secondary" href="#contact"
+              <a class="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact"
                 >Contact Us</a
               >
             </li>
@@ -58,7 +61,7 @@
     </nav>
 
     <!-- Hero Section/Header-->
-    <header class="header overflow-hidden bg-dark text-white">
+    <header class="header overflow-hidden bg-dark text-white" id="header">
       <div
         class="container d-flex align-items-center justify-content-center text-center flex-column vh-100"
       >
@@ -85,8 +88,8 @@
         </div>
         <div class="row">
           <div class="col-md-12 d-flex gap-3">
-            <a href="#" class="btn btn-outline-light btn-lg">Projects</a>
-            <a href="#" class="btn btn-primary btn-lg text-white">Contact me</a>
+            <a href="#projects" class="btn btn-outline-light btn-lg">Projects</a>
+            <a href="#contact" class="btn btn-primary btn-lg text-white">Contact me</a>
           </div>
         </div>
       </div>
@@ -94,10 +97,10 @@
 
     <!-- About me -->
     <section
-      class="about-me bg-light text-dark py-5 d-flex flex-column align-items-center"
+      class="about-me bg-light text-dark py-5 d-flex flex-column align-items-center" id="about"
     >
-      <h1 class="mb-4 text-primary">Know more about me!</h1>
-      <div class="container">
+    <div class="container">
+        <h1 class="mb-4">Know more about me!</h1>
         <div class="row">
           <div class="col-md-6 d-flex gap-3 align-items-center my-3">
             <img
@@ -165,7 +168,7 @@
     <!-- Projects -->
     <section class="projects py-5 bg-dark text-light" id="projects">
       <div class="container">
-        <h1 class="mb-4 text-primary text-center">Some of my Projects</h1>
+        <h1 class="mb-4 text-primary">Some of my Projects</h1>
         <!-- Row 1 -->
         <div class="row mb-3">
           <div class="col-lg-4 mb-3">
@@ -262,9 +265,9 @@
     </section>
 
     <!-- Gallery -->
-    <section class="gallery pb-5 bg-dark">
+    <section class="gallery pb-5 bg-dark" id="gallery">
       <div class="container">
-        <h2 class="text-center mb-5 text-primary">Photo Gallery</h2>
+        <h2 class="mb-5 text-primary">Photo Gallery</h2>
         <div class="row g-4">
           <div class="col-sm-6 col-lg-3">
             <div class="gallery-item">
