@@ -37,3 +37,26 @@
 .gallery .gallery-item img:hover {
   transform: scale(1.05);
 }
+
+.contact input[type=text],
+.contact input[type=email] {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+@media (max-width: 780px) {
+  .profile-img {
+    width: 150px;
+  }
+  .about-me img {
+    width: 100px;
+    height: auto;
+  }
+}
+@media (max-width: 520px) {
+  .gallery img {
+    width: 20%;
+  }
+}
