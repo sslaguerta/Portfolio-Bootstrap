@@ -24,22 +24,31 @@
   z-index: -1;
 }
 
-.about-me img {
-  width: 180px;
+// .carousel {
+//   border: 1px solid black;
+//   display: flex;
+//   gap: 10;
+// }
+.carousel-item img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+  object-fit: cover;
+}
+
+.caption {
+  border: 1px solid black;
   height: auto;
-  transition: all 0.5s ease;
-}
+  border-radius: 0px 0px 10px 10px;
+  background-color: #333333;
+  padding: 10px;
 
-.about-me img:hover {
-  scale: 1.05;
-}
+  h5 {
+    color: #ff9b45;
+  }
 
-.about-me .card {
-  overflow: hidden;
-}
-
-.projects .card {
-  overflow: hidden;
+  p {
+    color: #f4e7e1;
+  }
 }
 
 .gallery {
@@ -84,6 +93,21 @@
   .about-me img {
     width: 100px;
     height: auto;
+  }
+
+  .carousel-div {
+    flex-direction: column !important;
+  }
+  .carousel-item.active {
+    display: flex !important;
+  }
+
+  .caption {
+    border-radius: 0px 10px 10px 0px;
+  }zz
+
+  .carousel-item img {
+    border-radius: 10px 0px 0px 10px;
   }
 }
 

@@ -98,71 +98,93 @@
     </header>
 
     <!-- About me -->
-    <section
-      class="about-me bg-light text-dark py-5 d-flex flex-column align-items-center"
-      id="about"
-    >
-      <div class="container">
-        <h1 class="mb-4">Know more about me!</h1>
-        <div class="row">
-          <div class="col-md-6 d-flex gap-3 align-items-center my-3">
-            <img
-              src="images/mcdo.jpg"
-              alt="McDonald's"
-              class="img-fluid rounded"
-            />
-            <div class="col-md-6">
-              <p class="text-primary">Work Experience</p>
-              <p class="lead">
-                Work for McDonalds for almost 3 years as a kitchen crew
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 d-flex gap-3 align-items-center my-3">
-            <img
-              src="images/cvsu.jpg"
-              alt="Green School"
-              class="img-fluid rounded"
-            />
-            <div class="col-md-6">
-              <p class="text-primary">School</p>
-              <p class="lead">
-                Studied at Cavite State University Carmona Campus as a Computer
-                Engineer
-              </p>
-            </div>
-          </div>
+    <section class="about-me bg-light text-dark py-5" id="about">
+      <div
+        class="container d-flex align-items-center justify-content-center carousel-div"
+      >
+        <div class="col-md-6">
+          <h1 class="me-auto mb-4">Know more about me! <i class="fa-solid fa-face-laugh-wink"></i></h1>
         </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 d-flex gap-3 align-items-center my-3">
-            <img
-              src="images/coding.jpg"
-              alt="Screen with code"
-              class="img-fluid rounded"
-            />
-            <div class="col-md-6">
-              <p class="text-primary">Skills</p>
-              <p class="lead">
-                I have a strong foundation in web development and software
-                engineering principles.
-              </p>
+        <div class="col-md-6">
+          <div class="carousel slide" id="carouselCaptions">
+            <div class="carousel-inner container">
+              <div class="carousel-item active">
+                <img
+                  src="images/cvsu.jpg"
+                  alt="Picture of a school"
+                  class="img-fluid"
+                />
+                <div class="caption">
+                  <h5>Education</h5>
+                  <p>
+                    He studied at Cavite State University with a Bachelors
+                    Degree in Computer Engineering
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/mcdo.jpg"
+                  alt="McDonalds LOGO"
+                  class="img-fluid"
+                />
+                <div class="caption">
+                  <h5>Work Experience</h5>
+                  <p>
+                    He work for McDonalds for almost 3 years as a service crew
+                    while he was studying in college
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="images/coding.jpg"
+                  alt="Screen with codes"
+                  class="img-fluid"
+                />
+                <div class="caption">
+                  <h5>Skills</h5>
+                  <p>
+                    He have a strong foundation in web development and software
+                    engineering principles.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/drums.jpg" alt="Drum set" class="img-fluid" />
+                <div class="caption">
+                  <h5>Hobbies</h5>
+                  <p>
+                    He love to play music and express himself through rhythm and
+                    beats. He is a drummer in a band.
+                  </p>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-md-6 d-flex gap-3 align-items-center my-3">
-            <img
-              src="images/drums.jpg"
-              alt="a drun set"
-              class="img-fluid rounded"
-            />
-            <div class="col-md-6">
-              <p class="text-primary">Hobbies</p>
-              <p class="lead">
-                I love to play music and express myself through rhythm and
-                beats.
-              </p>
-            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon bg-dark p-4"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon  bg-dark p-4"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
         </div>
       </div>
