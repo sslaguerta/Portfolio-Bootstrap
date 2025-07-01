@@ -31,16 +31,18 @@
   left: 0;
   max-width: 25vw;
   // animation: walk 8s linear infinite;
+  pointer-events: none;
+  user-select: none;
   z-index: 10000;
   transition: all linear 0.4s;
 }
 
-.walking-man:hover {
-  // background-color: #33333377;
-  transform: translateX(-50%);
-  opacity: 0;
-  border-radius: 50%;
-}
+// .walking-man:hover {
+//   // background-color: #33333377;
+//   transform: translateX(-50%);
+//   opacity: 0;
+//   border-radius: 50%;
+// }
 
 @keyframes walk {
   from {

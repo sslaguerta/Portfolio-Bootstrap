@@ -30,14 +30,10 @@
   bottom: 0;
   left: 0;
   max-width: 25vw;
+  pointer-events: none;
+  user-select: none;
   z-index: 10000;
   transition: all linear 0.4s;
-}
-
-.walking-man:hover {
-  transform: translateX(-50%);
-  opacity: 0;
-  border-radius: 50%;
 }
 
 @keyframes walk {
