@@ -1,5 +1,5 @@
 .profile-img {
-  width: 200px;
+  width: 200px !important;
   border-radius: 50%;
   object-fit: cover;
 }
@@ -10,13 +10,14 @@
   height: 200px;
   border-radius: 50%;
   z-index: 1;
+  background-color: red;
 }
 
 .profile::after {
   content: " ";
   position: absolute;
-  width: 180px;
-  height: 180px;
+  width: 200px;
+  height: 200px;
   background-color: #ff9c45d1;
   border-radius: 50%;
   top: -15px;
@@ -24,13 +25,7 @@
   z-index: -1;
 }
 
-// .carousel {
-//   border: 1px solid black;
-//   display: flex;
-//   gap: 10;
-// }
 .carousel-item img {
-  width: 100%;
   border-radius: 10px 10px 0px 0px;
   object-fit: cover;
 }
@@ -94,9 +89,12 @@
     width: 100px;
     height: auto;
   }
-
+  .learn-more {
+    display: none;
+  }
   .carousel-div {
     flex-direction: column !important;
+    align-items: flex-start !important;
   }
   .carousel-item.active {
     display: flex !important;
@@ -104,10 +102,11 @@
 
   .caption {
     border-radius: 0px 10px 10px 0px;
-  }zz
+  }
 
   .carousel-item img {
     border-radius: 10px 0px 0px 10px;
+    width: 50% !important;
   }
 }
 
