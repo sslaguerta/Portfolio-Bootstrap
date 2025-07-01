@@ -68,14 +68,8 @@
   border: 1px solid black;
   height: auto;
   border-radius: 0px 0px 10px 10px;
-  background-color: #333333;
   padding: 10px;
-}
-.caption h5 {
-  color: #ff9b45;
-}
-.caption p {
-  color: #f4e7e1;
+  color: #333 !important;
 }
 
 .gallery {
