@@ -26,8 +26,8 @@
 }
 
 .walking-man {
-  position: fixed;
-  bottom: 0;
+  position: absolute;
+  bottom: -20px;
   left: 0;
   max-width: 25vw;
   pointer-events: none;
@@ -133,5 +133,13 @@
 @media (max-width: 520px) {
   .gallery img {
     width: 20%;
+  }
+}
+@media (max-width: 325px) {
+  .walking-man {
+    display: none !important;
+  }
+  .contact .socials i {
+    font-size: 30px;
   }
 }
